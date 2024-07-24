@@ -21,9 +21,10 @@ class HomepageState extends State<Homepage> {
     // if this is firt time opening the app, then create default data
     if(_mybox.get("TODOLIST") == null) {
       db.createInitialData();
-    } else
+    } else {
       //there already exists data
       db.loadData();
+    }
 
     super.initState();
   }

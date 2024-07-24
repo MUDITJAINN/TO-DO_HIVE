@@ -6,12 +6,12 @@ class ToDoDatabase {
   final _mybox = Hive.box('mybox');
 
 //run this methord if app is opening for the 1st time
-  void createInitialData() {
-    List toDoList = [
-      ["Drinkwater", false],
-      ["Do Excersize", false],
-      ["study", true],
-    ];
+ void createInitialData() {
+  //  List toDoList = [
+    //  ["Drinkwater", false],
+     // ["Do Excersize", false],
+     // ["study", true],
+    //];
   }
 
 // load data from database
